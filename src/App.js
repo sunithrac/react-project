@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { products as apiData } from "./data";
+import { useEffect, useState } from "react";
 import ProductCard from "./components/ProductCard";
 import Header from "./components/Header";
 import "./App.css";

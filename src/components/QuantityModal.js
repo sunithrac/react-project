@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function QuantityModal({ units, close, addToCart }) {
   const [selected, setSelected] = useState(units[0]);

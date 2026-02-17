@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function VariantModal({ variants, close, addToCart }) {
   const [variant, setVariant] = useState(variants[0]);
